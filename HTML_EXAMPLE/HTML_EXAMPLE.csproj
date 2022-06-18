@@ -70,7 +70,10 @@
     <Content Include="Basic_Tags.html" />
     <Content Include="Body_Tags.html" />
     <Content Include="CSS\Style.css" />
+    <Content Include="Form_Tags.html" />
+    <Content Include="Form_Tags_2.html" />
     <Content Include="img2\24858html-nedir-ne-ise-yarar.jpg" />
+    <Content Include="Semantic_Elements.html" />
     <Content Include="Table_Tags.html" />
     <Content Include="Text_Formatting_Elements.html" />
     <Content Include="Web.config" />

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form Tags</title>
+</head>
+<body>
+    
+    <!--HTML'de bir form yapısı oluştururken, <form> etiketinden yararlanırız. Bu etiket sayesinde, metin alanları, onay kutuları, radyo butonları, gönderme butonları vb. gibi girdi elemanlarını kullanırız.-->
+    
+    <form>
+        <label>Ad Soyad</label><!--label veri girişi yapılacak form elemanı hakkında bilgi vermek için kullanılır.-->
+        <br>
+
+        <!--İnput ile veri girişi yapılır.Value ile içi istenilene göre dolu olarak gelir. Placeholder ile inputun ne için oldugunu içiinde gözükecek şekilde belirtilir. Required ile bu input alanının boş bırakılamayacağını belirtiyoruz.-->
+        <input type="text" name="isim" id="isim" placeholder="Ad Soyad" required />
+        <br><br>
+
+
+        <label>Password</label><!--label veri girişi yapılacak form elemanı hakkında bilgi vermek için kullanılır.-->
+        <br>
+        <!--Password şifrelerin gözükmemesi için kullanılır direk yıldız seklinde yazar.-->
+        <input type="password" name="name" id="sifre"  placeholder="Şifre giriniz."/>
+        <br><br>
+
+
+        <label>Email</label>
+        <br>
+        <!--Email tipi ile kullanıldığında verinin içinde "@" arar.bunu zorunlu kılar.-->
+        <input type="email" name="email" id="email" placeholder="Emailizi giriniz." required />
+        <br><br>
+
+        <label>Telefon</label>
+        <br>
+        <input type="tel" name="tel" id="tel" placeholder="Telefon Numaranızı giriniz." required />
+        <br><br>
+
+        <label>Cinsiyet</label>
+        <br>
+
+        <!--Radio butonşar ile direk hazır verileri seçtirtebiliriz.Name alanı bu radio butonda önemli.Çünkü aynı name alanına sahip butonlar sadece birinde işaretlenmeye izin verirken , farklı farklı yazdığımızda da 3ünüde işaretlemeyi sağlar.Cinsiyet senaryosunda bu yanlıştır.Biz tek secili buton istiyoruz.-->
+        <input type="radio" name="cinsiyet" value="Erkek" required />Erkek <!--Burada value kullanarak direk neye tıkladığını belirtiyoruz..-->
+        <input type="radio" name="cinsiyet" value="Kadın" required />Kadın
+        <input type="radio" name="cinsiyet" value="X" required />Belirtmek istemiyorum.
+        <br><br>
+
+        <label>Ders Secimi</label>
+        <!--CHECKBOX ile  fazladan seçim yapılabilir.Checkbox içinde requeid kullanımı hatalı olabilir.1den fazla secenek varsa hepsini işaretlemek veya sadece required olanları işaretlemeyi zorunlu kılar.Burada kullanmak doğru olmayabilir.-->
+        <br>
+        <input type="checkbox" name="ders" id="ders" value="Html" />HTML
+        <input type="checkbox" name="ders" id="ders" value="Css" />Css
+        <input type="checkbox" name="ders" id="ders" value="Asp.Net" />Asp.Net
+        <input type="checkbox" name="ders" id="ders" value="Js" />Js
+        <br><br>
+        <!---Submint bizim formumuzu yollar-->
+        <input type="submit" name="submint" id="kayitbuton" value="Kayıt ol" />
+        <!--reset ile formu temizler-->
+        <input type="reset" value="Temizle" />
+
+
+
+    </form>
+
+
+</body>
+</html>
