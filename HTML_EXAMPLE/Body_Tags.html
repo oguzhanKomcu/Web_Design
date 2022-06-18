@@ -12,23 +12,64 @@
     <h4>Dördüncü Başlık</h4>
     <h5>Beşinci Başlık</h5>
     <h6>Altıncı Başlık</h6>
-        
+
     <!--Paraf Etiketleri-->
     <h1>Bu Paragrafın Başlığı</h1>
     <P>Bu yazdığımız ilk paragraf</P> <!--Paragraf etiketimiz.-->
     <p>Dedelerimiz, ömürleri boyunca verimli arkadaş saydıkları ağacı her yerde arayıp yetiştirmiş, ona gönüllerinin en derin sevgisini ve saygısını armağan etmişlerdir.<br> <!--"Br" etiketinin alt satırda bu tagin tanımı var-->Ağaçlarımız, halkımızın duyuşuna, düşüncesine girmiş, sinmiştir. Onlarda bizi, bizde onları görmemek mümkün olmaz.</p> <!--Uzun bir paragraf örneği-->
-    
+
     <br /> <!--Bu etiket paraf içinde kullanıldığında parafın o bölümünden keserek alt satırdan başlamasını sağlar.Gene temel kullanıma uyarak , tek boş halinde kullanıldığında da satır atatır yani arada boşluk olmasını sağlar.-->
 
     <pre> Bu pre deneme metnidir.          Boşluklar olduğu gibi yazılır.</pre> <!--"P" etiketinde yazılan boşluklar , tarayıcıda çıkmaz.bu etikette yazılan fazladan boşluklar tarayıcıda çıkar.-->
-
-
     <!--resim ve  açıklaması için kullanılabilir tagler-->
     <p>Html Dersleri Birinci Dersimiz yayında</p>
-    <figure> <!--resim ve açıklamasını birbirine bağlamaya yarar.-->
+    <figure>
+        <!--resim ve açıklamasını birbirine bağlamaya yarar.-->
         <img src="img2/24858html-nedir-ne-ise-yarar.jpg" width="600" height="700" /> <!--resim tagimiz-->
         <figcaption>Resim 1: Video Resmi</figcaption><!--resim için açıklama tagimiz.tagimiz-->
     </figure>
+
+
+    <!--Listeleme Tagleri-->
+
+    <ol>
+        <!--Ol etiketi sayesinde aksi belirtilmediği sürece başına 1,2,3 .. yazarak listeler. -->
+        <li>Html</li> <!--listeleri tanımlama.-->
+        <li>Css</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <ol reversed start="3">
+        <!--tersten yazılacak listeyi başında 3 ile başlıyarak 3,2,1 olarak listeler.-->
+        <li>JavaScript</li>
+        <li>Css</li>
+        <li>Html</li>
+    </ol>
+
+
+    <ul>
+        <!--bu etiket ile başında sayı olmadan , sadece belirteci olacak şekilde listeler.-->
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <dl>
+        <!--Dl etiketi , dt ve dd leri birleştirir.-->
+        <dt>Dersler</dt> <!--Listemizin başlığını oluşturur.-->
+        <dd>Html</dd>
+        <dd>Css</dd>
+        <dd>JavaScript</dd>
+
+    </dl>
+    <dl>
+        <!--Dl etiketi , dt ve dd leri birleştirir.-->
+        <dt>Günler</dt> <!--Listemizin başlığını oluşturur.-->
+        <dd>Pazartesi</dd>
+        <dd>Salı</dd>
+        <dd>Çarşamba</dd>
+
+    </dl>
 
 </body>
 </html>
