@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form Tags 3</title>
+</head>
+<body>
+    <!--burada get methoduyla gönderme yaptık ve bu url kısmında gözükür.Post yaparsak urlde herhangi bir değişiklik olmaz ve gözükmez. Lakin şifre gibi özel bilgilerin gözükmemesi için post kullanmamız gerekir.Action ile de sorgunun yapılacağı yer  secilir.-->
+    <form method="get" action="">
+        <!--Select etiketi , kullanıcıdan istenilen bir verinin sadece belirlenen verilerden secileceği zaman tıklanıp liste halinde getirileceği zaman kullanılır.Örnek categori listesi , şehir listesi , okul listeleri vs.-->
+        <select name="derssecimi">
+            <!--içindeki satıları oluşturmak için option kullandık.-->
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="php">PHP</option>
+        </select>
+        <br><br>
+
+        <input list="derslistesi" name="secilenders" required />
+        <!--Datalist listeler ve yazılanı bulup direk getirir.Burada datalist id ile inputtaki list alanları birbirine eşlememiz gerekir. -->
+        <datalist id="derslistesi">
+            <!--text alanında istenilirse yazılabilir .Fakat yazım aynıysa direk valueyi alır.-->
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JAVA"></option>
+            <option value="PHP"></option>
+            <option value="C#"></option>
+        </datalist>
+        <br><br>
+
+        <!--"Optgroup" grupça listemeyi sağlar.Burada program altında ki dersler ve web derlerini aynı yerde listeleyip seçim yapmamızı sağlar.-->
+        <select name="kurslar">
+            <optgroup label="Programlama Dersleri">
+                <option value="charp">c#</option>
+                <option value="java">JAVA</option>
+                <option value="python">PYTHON</option>
+                <option value="c++">C++</option>
+            </optgroup>
+            <optgroup label="Web Tasarım Dersleri">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javaScript">JavaScript</option>
+
+            </optgroup>
+
+        </select>
+
+
+        <!--Mesaj yazma metin kutusu oluşturur. style="resize:none" ile kutu büyütülüp küçütülemez.-->
+        <textarea name="mesaj" rows="10" cols="40" placeholder="Mesajı Buraya Yazınız" style="resize:none"></textarea>
+
+
+        <input type="submit" value="Gönder" />
+
+    </form>
+
+
+</body>
+</html>

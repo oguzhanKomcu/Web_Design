@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Div-Class-İd</title>
+    <!--divin ıdsinden yakalamak için , önce div oldugunu belirttik sonra # id ismini yazdık.Bunlar bitik olmak zorunda-->
+    <!--Cssde yazılan pxler divin en başta oluşturulan piksellerine göre yazılır hesaplanır. -->
+    <style>
+        div#genelYapi{
+            width:898px;
+            height:600px;
+            border:1px solid #FF0000;/*Çevresi için renk kodu ve kalınlığı 1px yaptık*/
+            margin: auto; /*divimizi ortaladık*/
+            margin-top : 25px; /*üstten 25 piksel aşağı kaydırdık.*/
+            
+        }
+        div#anaHeader {
+            width: 798px;
+            height: 80px;
+            border: 1px solid #FF0000;
+            margin: auto;
+            margin-top: 25px;
+            text-align: center;/*yazıyı ortamak için*/
+        }
+        div#icerikCerceve {
+            width: 798px;
+            height: 600px;
+   /*         border: 1px solid #FF0000;*/ /*border kullanmak istemediğimiz için sildik*/
+            margin: auto;
+            margin-top: 25px;
+        }
+
+        div#anaSection {
+            width: 498px;
+            /*  height: 798px;*/ /*height kaldırdık çünkü yeni eklenen makaleler ile sayfa uzamaya devam etsin diye.*/
+            border: 1px solid #FF0000;
+            margin: auto;
+            /*            margin-top: 25px;*/ /*section bölümü için aşağı kaydırmaya gerek yok o direk içerik cercevesinden alıyor.*/
+            text-align: center; /*yazıyı ortamak için*/
+            float: left; /*aside bölümü için sağa yasladık*/
+        }
+        div#anaAside {
+            width: 273px;
+            height: 498px;
+            border: 1px solid #FF0000;
+            float: right;
+            text-align: center;
+        }
+
+        div#anafooter {
+            width: 798px;
+            height: 80px;
+            border: 1px solid #FF0000;
+            margin: auto;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom : 25px;
+        }
+        /*sınıflar nokta ile çağrılır.*/
+        div.anaAticle {
+            width: 398px;
+            height: 200px;
+            border: 1px solid #FF0000;
+            margin: auto;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        div.headerBaslik{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+
+    <!--Divler tek başına bir anlam ifade etmezler. Css ile şekillendirilirler .Bu sebepten yukarıda css kodlarını yazdık.-->
+    <!--ANA SAYFA YAPISI İÇİN İLK DİV YUKARIDA CSS İLE BUNU ORTALADIK-->
+    <div id="genelYapi">
+        <!--SAYFA BAŞLIĞI VE CSS İLE ŞEKİLLENDİRDİK ORTALADIK-->
+        <div id="anaHeader">
+             <h1 class="headerBaslik" >Burası Header Bölümü</h1>
+        </div>
+        <!--Bodye hitap eden yer . Sayfanın bilgilerini oldugu yerdir.--->
+        <div id="icerikCerceve">
+            <!---->
+            <div id="anaSection">
+                <div class="anaAticle"> <!--Dikkat burada class tanımladık..-->
+                    <h1>Makale Başlığı</h1>
+                    <h2>Makale İçeriği</h2>
+                </div>
+
+            </div>
+            <div  id="anaAside">
+                <h1>Burası Aside Bölümü</h1>
+            </div>
+
+        </div>
+        <!--yukarıdaki satılardan sonra footerında sıralı bir biçimde decam etmesi için-->
+        <div style="clear:both"></div>
+
+        <div id="anafooter">
+            <h1>Burası footer bölümü</h1>
+        </div>
+        
+    </div>
+
+    
+
+</body>
+</html>

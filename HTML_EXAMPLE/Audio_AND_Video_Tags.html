@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form_Tags_4</title>
+</head>
+<body>
+    <h1>Bu AnaSayfadır</h1>
+    <!--"a" etiketi sayfalar arası gezinmemizi veya bir linke gidilmesini sağlar.-->
+    <a href="Body_Tags.html">Body_Tags</a>
+    <!--Target parametresiyle beraber kullanıldıgında ise gidilecek sayfayı yeni bir sekmede açar-->
+    <a href="https://github.com/maxxcrawford/website/blob/main/_temp.html" target="_blank">Body_Tags</a>
+    <br><br>
+    <!--bir dosyaya "download tagi verildiğinde o dosya indirilebilinir olur.Tıklanıldığında direk indirme işlemi gerçekleşir."-->
+    <a href="ornek.txt" download>txt dosyasını indir..</a>
+
+    <!--Audio etiketi sayfaya ses dosyası eklenip ve tag yanına eklenilen controls ile controls paneli getilmesini sağlar.Autoplay özelliğide eklenebilinir.O  özellik eklendiğinde sayfa yenilendiğinde direk ses dosyası çalışır.-->
+    <br><br>
+    <audio controls>
+        <!--Source ile içine ses dosyamızı koyduk ve her tarayıcıda çalışması için hem wav hemde mp3 olarak yükledik. -->
+        <source src="ornekses.wav" type="audio/wav" />
+        <source src="ornekses.mp3" type="audio/mp3" />
+    </audio>
+    <br><br>
+
+    <!---Video etiketi sayfaya video dosyası eklenip ve tag yanına eklenilen controls ile controls paneli getilmesini sağlar. Burada genişlik ve yükseliğinide belirleyebiliyoruz.Autoplay ile sayfa yenilendiğinde video otomatik olarak başlar.-->
+    <video width="600" height="320" controls autoplay>
+        <!--tarayıcı mp4 dosyasını oynatamıyorsa , bir alt satırdaki oggyi dene dedik.Lakin mp4 genelinde kullanılır.-->
+        <source src="ornek.mp4" type="video/mp4" />
+        <source src="ornek.ogg" type="video/ogg" />
+
+    </video>
+    <br><br>
+
+    <!-- İframe ile  Youtube veya başka sitelerden video çekmek-->
+    <iframe width="600" height="320" src="https://www.youtube.com/watch?v=0VCKU5p8BsI&list=PLVbohsCBWDG_zGHwIJHiBwbkyYkhvi5TM&index=10"></iframe>
+</body>
+</html>
