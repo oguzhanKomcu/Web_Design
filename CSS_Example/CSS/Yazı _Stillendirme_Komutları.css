@@ -1,0 +1,26 @@
+﻿
+
+h1 {
+    /*İngilizce renk belirleme.İngilizce renk isimleriyle belirlendirilebilir.*/
+    /*color: green;*/
+    /*Hex kodu ile renk belirleme*/
+    /*color: #00ff00;*/ 
+
+    /*Rgb ile renk belirleme*/
+    color : rgb(255,0,0);
+    font-family :  Arial; /*yazının font biçimini değiştirmeye yarar .Yaızm seşlini değiştirir.*/
+    
+}
+
+
+h2 {
+    /*yazı boyutlarını değiştirmek için kullanılır. Piksel ile istediğimiz boyutu verebiliriz. Kendi içinde "small , medium , large , x-large" gibi komutlarıda vardır, bunlar kendi içinde de kategorilendirilir. */
+    font-size: 30px;
+    font-family: sans-serif; /*yazının font biçimini değiştirmeye yarar .Yaızm seşlini değiştirir.*/
+}
+
+p {
+    font-family: cursive; /*yazının font biçimini değiştirmeye yarar .Yaızm seşlini değiştirir.*/
+    font-style : oblique; /*yazıya eğik bir stil vermek için */
+    font-weight : 900; /*Font-weight ile kalınlık verebiliriz.*/
+}

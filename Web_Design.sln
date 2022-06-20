@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML_EXAMPLE", "HTML_EXAMPLE\HTML_EXAMPLE.csproj", "{81D56D23-6185-4F5A-AD01-DEB6EEDF4B6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSS_Example", "CSS_Example\CSS_Example.csproj", "{95475E08-668B-4313-96DE-0003AF5D5ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap_Examples", "Bootstrap_Examples\Bootstrap_Examples.csproj", "{0A673EA9-702B-4937-B708-2AA112F25F34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{81D56D23-6185-4F5A-AD01-DEB6EEDF4B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81D56D23-6185-4F5A-AD01-DEB6EEDF4B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81D56D23-6185-4F5A-AD01-DEB6EEDF4B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95475E08-668B-4313-96DE-0003AF5D5ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95475E08-668B-4313-96DE-0003AF5D5ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95475E08-668B-4313-96DE-0003AF5D5ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95475E08-668B-4313-96DE-0003AF5D5ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A673EA9-702B-4937-B708-2AA112F25F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A673EA9-702B-4937-B708-2AA112F25F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A673EA9-702B-4937-B708-2AA112F25F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A673EA9-702B-4937-B708-2AA112F25F34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,21 @@
+﻿
+/*Bu css kodları tagden oluşturulduğu için  sayfada aynı tag ile yer alan tüm alanları temsil eder.*/
+a {
+    text-decoration : none ;  /*Burada "a" etiketinin altında bulunan çizgiyi yok ettiik.*/
+    color :  black; /*Burada rengini değiştirdik.*/
+
+}
+
+/*Id'den yakalamak için , önce etiket ismini sonra id yakalamaya yarayan "#" sembolü kullanılmalıdır.*/
+h1#cssid{
+    color : blue;
+    font-size : 25px; /*yazı boyutunu değiştirdik.*/
+
+    
+}
+
+/*Burada class ile secerek sitillendirmeyi gösterdik. Classından yakalamak için "h1"den sonra nokta ve h1'in kullandığı classın ismi gereklidir.*/
+h1.h1metin{
+    color: green;
+    font-size: 20px;
+}

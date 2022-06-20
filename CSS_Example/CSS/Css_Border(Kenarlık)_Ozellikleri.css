@@ -1,0 +1,29 @@
+﻿div#kutu {
+
+    width : 600px;
+    height : 400px;
+    margin : auto; /*divi ortalamak için */
+    border : 10px solid red; /*Tek satırda çerceve yani kenarlık yazımı */
+    /*Uuzn hali altta */
+    /*border-width : 10px;
+    border-style : solid;
+    border-color: red;*/
+    
+  
+
+    /*Kenarları dik olrak değilde kavisli yapmak için !! kısa atama hali */
+    /*border-radius : 25px;*/
+
+    /*Uzun hali altta!!!*/
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+    
+    
+
+
+
+}

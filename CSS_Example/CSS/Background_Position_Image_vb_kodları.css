@@ -1,0 +1,33 @@
+﻿
+/*ARKA PLANIN RENGİNİ DİREK ÇEVİRMEK İÇİN BODY TAGİNE ATAMA YAPIYORUZ.*/
+body {
+    background-color : rgba(255,0,0,0.5) /*Rgba kulanrak renk ataması yaptım, 0.5 ile renginiactım*/
+}
+
+/*Idsinden div'imi yakalıyorum.Background işlemlerini yapıyorum*/
+div#sayfa {
+    width: 1346px;
+    height: 1500px;
+    margin: auto;
+    border: 1px solid #ffffff; /*beyaz renk kodu*/
+
+
+    
+    /*arka planımıza bir ressim ekliyorum*/
+    background-image: url(../Image/5441654.jpg);
+    background-repeat: no-repeat; /* resmin tekrar etmemesi için bunu uyguluyorum*/
+    /* background-repeat : repeat-x; Sadece X yönünde tekrar etsin diyebiliriz.
+   background-repeat : repeat-y; Sadece Y yönünde tekrar etsin diyebiliriz.*/
+
+    background-position: center; /*resim div içinde ortalanması için*/
+    background-size: contain; /*resimin tamamını div de kaplamak için*/
+    /*background-size: contain;*/ /*resmin bu sefer tam boyutu ile dive yerleşir.*//*EN ÇOK KULLLANIMLARDAN BİRİ DE BUDUR.*/
+    /*background-size: auto;*/ /*resmin bu sefer tam otumasını ile dive yerleşir.*/
+
+
+    background-attachment : fixed; /*RESİM DİV ALANINA YERLEŞİK İKEN SAYFA AĞAĞI YUKARI İNSE DAHİ , RESİM SABİT KALIR.*/
+    
+
+    /*NOT !!!!!!!!!!!!!!*/
+    /*Sadece arka plana yani bodye değil paragrafında arka planına renk ataması yapılabilinir.*/
+}

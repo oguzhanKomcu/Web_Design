@@ -1,0 +1,30 @@
+﻿div.mKutu {
+    width : 250px;
+    height : 250px;
+    background : red;
+    float : left; /*Kutuların yan yana görüntülenmesi için yaptık*/
+    /*MARGİN*/
+    /*Kısa versiyonu*/
+    margin: 25px 5px 50px 25px;
+
+
+    
+    
+    /*Uzun versiyonu*/
+    /*Sayfanın yukarısından boşluk vermek için "mKutu" classımızı stillendiriyorum */
+    /*margin-top : 25px;*/ /*Yukarıdan boşluk*/
+    /*margin-left : 25px;*//* Soldan boşluk*/
+    /*margin-bottom : 25px;
+    margin-right : 25px;*/
+    
+}
+
+div#pKutu {
+    width: 110px;
+    height: 250px;
+    background-color: blue;
+    text-align: center;
+    padding-top : 25px;
+    padding-left : 25px;
+    padding-right: 25px;
+}

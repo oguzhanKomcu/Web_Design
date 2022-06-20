@@ -1,0 +1,21 @@
+﻿
+/*Id veya class ile yakalamadığımız için direk "p"etiketini düzenliyoruz.*/
+p {
+    /* line-height satırlar arası boşluğu ayarladığımız komut*/ /*"normal" bir değer verirsek orjinal boyutunu alır*/ /*1,2,3,4 ilede aralık belirlenebilir.*/
+    line-height: 25px;
+    word-spacing: 10px; /*kelimeler arası boşluğu belirler.*/
+    letter-spacing: 2px; /*Harfler arası olan aralığı belirler.*/
+    /*text-align: right; */ /* right dersek paragraflar  sağa yaslı olarak hizalanılır.*/
+    /*text-align: center ; Center ile paragraflar merkezde listelenir.*/
+    text-align: justify; /*Ne sağdan ne de soldan hizalanmasını istemiyorsak kullanırız.Her 2 yönden de ortalama bir hizalık sağlar.*/
+
+    text-decoration: underline; /*text-decoration : underline ile paragrafın altı çizgili bir şekilde olmasını sağlar. Üstü çizgili lsun istiyorsak "overline" degerini atamamız gerekir.Metinlerin üzeri çizili olmasını istiyorsak "line-through" atamasını yapmamız gerekir. */
+
+   /*Paragrafların baştan boşluklu olmasını istiyorsak eğer bu atamayı yapmamız gereklidir.*/
+   text-indent : 25px; /*VEYA 1cm de diyerek boşluk olusturabilirz.*/
+}
+
+/*hepsibuyk sınııf için */
+ p.hepsiBuyuk{
+        text-transform : uppercase; /*tüm harfleri büyük bir biçimde yazar.*//*Lowercase ile de hepsi küçük yapar.*/
+    }
