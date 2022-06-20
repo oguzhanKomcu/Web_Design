@@ -64,6 +64,31 @@
     <br />
 
     <!--Diğer boyutlandırmalar (XS , LG , XL , XS) içinde aynı benzer işlemler yapılabilir.-->
-    
+    <!--GRİD SYSTEM 2-->
+    <!--Grid sistemde bölme işlemlerini istersek direk ana div üzerinden de yapabiliriz.-->
+    <!--Row-cols-2 diyerek direk satırmızı 2 sütuna bölmüş oluyoruz.Bu rol-cols'ün çalışması için row içinde oluşrurulan sütunlarda herhangi bir ölçü parametresi olmamalıdır.Eğer olursa iptal olup col-.. istenilen satır bölmesi gerçekleşir.'-->
+
+    <div class="row row-cols-2">
+
+        <!--İlk gelen sütun direk 1.sutun alanına , diğerleride sırasıyla doğru sütuna yerleştirilir.-->
+        <div class="col border">Bootstrap1</div>
+        <div class="col border">Bootstrap2</div>
+
+        <!--Burada row 2 sütuna bölündüğü için 3.sütun bi alt satıra kendini oluşturur.-->
+        <div class="col border">Bootstrap3</div>
+
+    </div>
+
+
+    <div class="row no-gutters row-cols-2">
+        <!--Bu örnek text metnindeki yazılar tam sığmayacağı için kenarda çok boşluk bıraklıarak alt satıra geçilir.Lakin bunun böyle olmasını istemiyorsak eğer üst divde ki class içinde yazdığımız no-gutters komutunu uygulamanız gerekir.-->
+        <div class="col border">Bootstrap1  Bootstrap1 Bootstrap1 Bootstrap1  Bootstrap1 Bootstrap1 Bootstrap1 Bootstrap1 </div>
+        <div class="col border">Bootstrap2</div>
+        <div class="col border">Bootstrap3</div>
+
+    </div>
+
+
+
 </body>
 </html>

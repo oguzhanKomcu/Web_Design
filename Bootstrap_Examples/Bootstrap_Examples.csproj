@@ -67,8 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Background_Colors.html" />
     <Content Include="Container.html" />
     <Content Include="Grid_System.html" />
+    <Content Include="Text_Colors.html" />
+    <Content Include="Typography_Heading_H_etiketleri_için.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
