@@ -68,9 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Background_Colors.html" />
+    <Content Include="NavbarExample.html" />
     <Content Include="Container.html" />
     <Content Include="Grid_System.html" />
+    <Content Include="Margin_DiVicinKenarBoslukVeOrtalama.html" />
+    <Content Include="Padding_DiviciSınırlar.html" />
+    <Content Include="Table_Sınıfları.html" />
     <Content Include="Text_Colors.html" />
+    <Content Include="Typography_Classes_YazıSekillendirmeleri.html" />
     <Content Include="Typography_Heading_H_etiketleri_için.html" />
     <Content Include="Web.config" />
   </ItemGroup>

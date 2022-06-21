@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Typography_Classe_YazıBoyutlandırmaları</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!----
+
+       XS                S            MD           lG                   XL
+    < 576PX >        < 576PX >     <768px>       <992PX>             <1200px>
+
+
+     -->
+
+    <p>Bootstrap</p> <!--normal yazı-->
+    <p class="small">Bootstrap</p> <!--Bootstrap sınıfı sayesinde texteki yazıyı biraz daha küçük yazdırabiliyoruz.-->
+    <small>Bootstrap</small> <!--Element ile aynı şekilde küçük yazı yazdırabiliyorum.-->
+
+    <p class="lead">Fenerbahçe</p> <!--Normalinden bır tık daha büyük yazdırmak için -->
+
+    <p class="initialism">Linkin Park</p> <!--Text karakterlerini büyük şekilde yazdırır.-->
+    <br />
+
+    <mark>Oğuzhan Kömcü</mark> <!--Sadece yazının arka planı soluk boyalı-->
+    <p class="mark">Fenerbahçeeee</p> <!--Bootstrap mark sınıfı sayesinde tüm arka plan soluk bir font ile kaplanır.-->
+
+    <br />
+
+    <abbr title="Türkiye Büyük Millet Meclisi">TBMM</abbr> <!--Altı noktalı bir biizmde text ifadesi yazılır, imlec üstüne gelindiğinde alttan "title" ifadesi çıkar -->
+
+
+
+    <dl>
+        <dt>Fenerbahçe</dt> <!--Dt ,Üst satır daha koyu belirgin-->
+        <!--DD alt satır daha açık tonda-->
+        <dd>Kadro : Volkan , Andre Santos ,Lugano , Edu , Gökhan , ümit ,Tuncay , David de Souza , Roberto Carlos,Mateja Kežman,Anelka </dd>
+
+
+    </dl>
+
+
+    <!--Diyelim bir kod blogunu belirtecek isek , code elementleri arasına yazmamız yetrlidr.Rengi pembe renkte olur.-->
+    <p>Döngü yazmak için <code>For , foreach , while , do while</code> gibi komutlar kullanılabilinir.</p>
+
+
+    <!--ÖNEMLİİİİİİİİİİİ-->
+
+
+    <!--List Yan yana yazmak için ul kapsayacısına bir bootstrap sınıfı atıyoruz.Sonrasında da li etiketlerimizede "list-inline-item" sınıfını entegre ederek , bu listenin alt alta değilde yan yana bir şekilde sıralamansını uygulayabiliriz.Bu NAVBAR İÇİNDE KULLANILINILIR. -->
+
+    <ul class="list-inline">
+
+        <li class="list-inline-item">HTML</li>
+        <li class="list-inline-item">CSS</li>
+        <li class="list-inline-item">JavaScript</li>
+        <li class="list-inline-item">Jquery</li>
+        <li class="list-inline-item">Bootstrap</li>
+
+
+    </ul>
+
+
+
+</body>
+</html>

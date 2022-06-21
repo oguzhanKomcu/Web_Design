@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Margin_DiVicinKenarBoslukVeOrtalama</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--Div dış cercevesini şekillendirmek için önce bir border , sonradn da "border/danger" ile renk verdim. -->
+    <div class="border border-dark" style="width:100%">
+
+
+        <!--Şimdi iç division ımın sınırlarını bootstrap marjin sınıfları ile şekillendiriyorum.Marjin sınır ölçüleri 1 marjin 4px 2m 8px 3m 16px vs.. diye devam eder.Bunu tüm kenarlarından sağ sol top buttom dan eşit sekilde yapar.-->
+        <div class="border border-danger  m-4">Bootstrappp</div>
+        <br />
+
+        <!--Eğer sadece üst taraftan bir boşluk bırakmak istiyorsak  marjin-top anlamındaki "mt" ile beraber "mt-4/.." yazmamız gerekir.Bunu diğer tarafların baş harfleriyle de uygulayabiliriz. Alttan "mb", sol"ml", sağ"mr"   -->
+        <div class="border border-danger  mt-4">Bootstrappp</div>
+        <br />
+
+        <!--istersek hem soldan hem sağdan marjin verebiliriz. Yada mt ile üstten mb ile alttan olarak sınır verebiliriz.-->
+        <div class="border border-danger  ml-4  mr-2">Bootstrappp</div>
+        <br />
+
+        <!--Veya 4 kenardanda sınır koyabiliriz.-->
+        <div class="border border-danger  ml-2  mr-3 mt-2 mb-3">Bootstrappp</div>
+        <br />
+
+
+        <!--Veya X "mx" DÜZLEMİNDE HER 2 TARAFTANDA SINIR KOYABİLİRİZ VEYA Y "my" DÜZLEMİNDEN DE BUNU UYGULAYABİLİRİZ.-->
+        <div class="border border-danger mx-6">Bootstrappp</div>
+        <br />
+
+        <!--Bu şekilde mx auto yaparak ve css style ile de yüzde belirleyerek , x düzleminde ortalama yapabiliriz.-->
+        <div class="border border-danger mx-auto" style="width:60%">Bootstrappp</div>
+        <br />
+
+
+    </div>
+
+
+
+
+    <!--Sayfa alanı küçüldüğünde  kenar sınırlarını ona göre belirlenmesini istiyorsak eğer "m-md-3" yapmamız yeterli.Burada md yerine hangi px boyutlandıırlmasını kullanmak istiyorsak ona göre değişebilir. Örn: m-lg-2 , m-md-3 , m-sm-4 gibi  -->
+    <!--Bu durumda sayfa div için , md ve üstü aralıkta bu 3 marjinlik alana sahip olmak istiyorum fakat  düştüğünde bu marjin kalksın ve sayfaya yerleşşsin demek istiyoruz. -->
+    <div class="border border-danger mx-6" style="height:200%">Bootstrappp</div>
+    <br />
+
+</body>
+</html>
